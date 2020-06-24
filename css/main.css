@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+#container{}
+
+/*mainSlider*/
+.mainSlider{
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+    height:830px;
+}
+
+.mainVideo{
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+}
+
+.mainSlider p{
+    margin-top:200px;
+    font-size:40px;
+    font-weight:100;
+    color:#fff;
+}
+.mainSlider p span{
+    display:block;
+}
+
+.sliderBtn{
+    position:absolute;
+    top:50%;
+    margin-top:-29px;
+}
+.RBtn{
+    right:30px;
+}
+.LBtn{
+    left:30px;
+}
+
+.main_youtube{
+    padding:60px 0;
+    text-align:center;
+}
+
+/*con01*/
+.con01{
+    padding:60px 0;
+    position:relative;
+    text-align:center;
+}
+
+.con01 h2{
+    padding-bottom:60px;
+    font-size:38px;
+    font-weight:500;
+}
+
+.con01Box{
+    display:inline-block;
+    padding-left:80px;
+}
+.con01Box li{
+    float:left;
+    width:250px;
+    background:url(../images/main/con01_bar.png) no-repeat;
+}
+.con01Box li:first-child{
+    background:none;
+}
+.con01Box li:last-child{
+    width:320px;
+    padding-left:15px;
+}
+
+.con01Txt{}
+.con01Txt h4{
+    font-size:18px;
+    padding:15px 0;
+    font-weight:500;
+}
+.con01Txt p{
+    font-size:40px;
+    font-weight:200;
+}
+.con01Txt p span{
+    font-size:26px;
+}
+
+.moreBtn{
+    width:180px;
+    height:45px;
+    line-height:45px;
+    margin:50px auto;
+    background:#043285 url(../images/main/info_arrow.png)no-repeat 75% center;
+}
+.moreBtn a{
+    color:#fff;
+    font-weight:200;
+    margin-right:15px;
+}
+
+.con01Bottom{
+    position:absolute;
+    right:0;
+    bottom:150px;
+    font-size:14px;
+    color:#464646;
+    font-weight:100;
+}
+
+/*con02*/
+.con02{
+    background:url(../images/main/newsroom_bg.png)no-repeat center center;
+    background-size:cover;
+    height:972px;
+    padding-top:80px;
+}
+
+.con02Box{
+    background:#fff;
+    width:1330px;
+    height:616px;
+    margin:0 auto;
+    padding:0 100px;box-sizing:border-box;
+}
+.con02Box h2{
+    font-size:38px;
+    font-weight:500;
+    text-align:center;
+    padding:60px 0;
+}
+
+.newsLine{}
+.newsLine li{
+    float:left;
+    width:220px;
+    margin-right:15px;
+    padding:0 25px;
+}
+.newsLine li:last-child{
+    margin-right:0;
+}
+.newsLine li a{}
+.newsLine li a p{
+    font-size:18px;
+    font-weight:500;
+    border-bottom:2px solid #d6d6d6;
+    margin-bottom:15px;
+    min-height:90px;
+    max-height:90px;
+    line-height:23px;
+}
+.newsLine li p span{
+    display:block;
+}
+.newsLine li>span{
+    font-weight:200;
+}
+
+.con02Bottom{
+    float:left;
+    width:540px;
+    height:190px;
+    margin-top:60px;
+    margin-right:20px;
+    padding:20px 30px;
+    box-sizing:border-box;
+}
+.con02Bottom h3{
+    font-size:30px;
+    font-weight:500;
+}
+.con02Bottom p{
+    padding:20px 0;
+    font-weight:200;
+}
+
+.newsLetter{
+    background:url(../images/main/newsroom_img.png)no-repeat center center;
+}
+.letterBtn{}
+.letterBtn li{
+    float:left;
+    background:#fff url(../images/main/newsroom_arrow.png)no-repeat 85% center;
+    width:150px;
+    height:45px;
+    line-height:45px;
+    margin-right:20px;
+    font-size:15px;
+    font-weight:200;
+    text-align:center;
+}
+.letterBtn li a{
+    display:block;
+}
+
+.sns{
+    margin-right:0;
+}
+.snsBtn{}
+.snsBtn li{
+    float:left;
+    background-color:#888;
+    background-position:center center;
+    width:60px;
+    height:60px;
+    text-indent:-9999px;
+    border-radius:50%;
+    margin-right:40px;
+}
+.youtube{
+    background:url(../images/main/icon_u.png)no-repeat;
+}
+.blog{
+    background:url(../images/main/icon_b.png)no-repeat;
+}
+.facebook{
+    background:url(../images/main/icon_f.png)no-repeat;
+}
+.insta{
+    background:url(../images/main/icon_in.png)no-repeat;
+}
+.snsBtn li a{
+    display:block;
+}
+
+/*con03*/
+.con03{
+    margin-top:-200px;
+}
+.con03 h2{
+    font-size:38px;
+    font-weight:500;
+    color:#fff;
+    text-align:center;
+    padding-bottom:60px;
+}
+
+.con03Box{
+    float:left;
+    margin-right:70px;
+    width:350px;
+}
+.con03Box:last-child{margin-right:0;
+}
+.con03Box img{}
+.con03Box h3{
+    font-size:26px;
+    font-weight:500;
+    color:#043285;
+    padding-top:30px;
+}
+.con03Box p{
+    font-weight:200;
+    padding:20px 0;
+}
+
+.con03List{
+    border-top:2px solid #043285;
+}
+.con03List li{
+    height:80px;
+    line-height:80px;
+    border-bottom:1px solid #e5e5e5;
+    background:url(../images/main/arrow_blue.png)no-repeat right center;
+}
+.con03List li a{
+    display:block;
+}
+
+
+/*오시는길*/
+.map{
+    padding:60px 0;
+    text-align:center;
+}
+.map h2{
+    font-size:38px;
+    font-weight:500;
+    margin-bottom:30px;
+}
+
+/*사이트맵*/
+.siteMap{
+    background:#f3f3f3;
+    margin-top:120px;
+    padding:60px 0 120px 0;
+}
+.siteMap dl{
+    float:left;
+    margin-right:191px;
+    padding:20px 0;
+}
+.siteMap dl:last-child{
+    margin-right:0;
+}
+.siteMap dt{
+    margin-bottom:30px;
+    font-size:18px;
+    font-weight:500;
+}
+.siteMap dd{
+    margin-bottom:20px;
+    font-size:15px;
+    font-weight:200;
+}
+.siteMap dd a{}
+
+
+
+
+
+
+
+
+
+
+
+
+

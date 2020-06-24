@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    text-align:center;
+    height:70px;
+    line-height:70px;
+}
+
+#header h1{
+    position:absolute;
+    left:30px;
+    font-size:0;
+}
+#header h1 a{}
+#header h1 img{
+    vertical-align:middle;
+}
+
+.gnb{
+    display:inline-block;
+}
+.gnb li{
+    float:left;
+    font-size:18px;
+    padding:0 45px;
+}
+.gnb li a{}
+
+.util{
+    position:absolute;
+    right:0;
+    top:0;
+}
+.util li{
+    float:left;
+    font-size:13px;
+}
+.util li::after{
+    content:"";
+    display:none;
+    width:1px;
+    height:10px;
+    background:#ccc;
+    margin:0 10px;
+}
+.util li:first-child:after{
+    display:inline-block;
+}
+.util li a{}
+
+.searchIcon{
+    width:60px;
+    height:70px;
+    background:#043285 url(../images/common/searchIcon.png)no-repeat center center;
+    text-indent:-9999px;
+    margin-left:15px;
+}
+.searchIcon a{
+    display:block;
+}
+
+
+/*푸터*/
+#footer{
+    background:#474b50;
+    font-size:14px;
+    font-weight:200;
+    padding:30px 0;
+}
+
+.fTop{
+    border-bottom:1px solid #6c6f73;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
+.topBtn{
+    position:fixed;
+    bottom:0;
+    right:50%;
+    margin-right:-680px;
+}
+.topBtn a{}
+.topBtn img{}
+
+.fMenu{
+    float:left;
+}
+.fMenu li{
+    float:left;
+}
+.fMenu li:after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:14px;
+    background:#8c8e90;
+    margin:0 20px;
+    vertical-align:middle;
+}
+.fMenu li:last-child:after{
+    display:none;
+}
+.fMenu li a{
+    color:#fff;
+    vertical-align:middle;
+}
+
+
+.fSns{
+    float:right;
+}
+.fSns li{
+    float:left;
+    margin-left:10px;
+}
+.fSns li a{}
+.fSns li img{}
+
+.fBottom{
+    position:relative;
+}
+
+.fBMeue{}
+.fBMeue li{
+    float:left;
+    margin-right:30px;
+    padding-bottom:20px;
+}
+.fBMeue li a{
+    color:#fff;
+}
+.fBMeue .menuColor{
+    color:#22c0ff;
+}
+
+.copy{
+    position:absolute;
+    top:0;
+    right:0;
+    font-size:12px;
+    color:#fff;
+}
+
+.fInfo{color:#fff;}
+.fInfo p{}
+.fInfo p span{
+    padding:5px 0;
+}
+.fInfo p span:after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:12px;
+    background:#d3d3d3;
+    margin:0 10px;
+}
+.fInfo p span:last-child:after{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
